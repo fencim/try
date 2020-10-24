@@ -17,3 +17,5 @@ main: main.cpp
 clean:
 	$(RM) *.dSYM *.out main
 	@echo "Clean complete"
+start: 
+	./main
